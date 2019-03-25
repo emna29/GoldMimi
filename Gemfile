@@ -22,6 +22,7 @@ gem 'cloudinary', '~> 1.9.1'
 gem 'i18n'
 gem "simple_calendar", "~> 2.0"
 gem 'awesome_print'
+gem 'turbolinks', '~> 5.2.0'
 
 
 group :development do
