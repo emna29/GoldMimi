@@ -1,3 +1,23 @@
 // Place all the styles related to the products controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.container{
+  width: 669px;
+  height: 75vh;
+  margin: 0 auto;
+  display: flex;
+  align-content: space-between;
+  overflow: hidden;
+  background-image: url("../images/cover.png");
+
+}
+
+.cards{
+width: 200px;
+height: 330px;
+margin: 30px 40px;
+justify-content: space-between;
+
+ }
+
+
