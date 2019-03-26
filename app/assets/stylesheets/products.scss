@@ -1,3 +1,46 @@
 // Place all the styles related to the products controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.wrapper{
+  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.2)),
+  url('https://res.cloudinary.com/dhbzrdsvv/image/upload/v1553600489/gold%20by%20mimi/29740050_1975925212481135_1894182827822415872_n.jpg');
+  height: 167vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cards{
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+    width: 200px;
+    height: 248px;
+    background-color: #fff;
+    margin: 30px 40px;
+    box-shadow: 5px 7px 20px 0px rgba(0, 0, 0, 0.16);
+    position: relative;
+    border-radius: 5px;
+}
+
+.name{
+  color:red;
+  text-align: center;
+  margin-top: 43px;
+
+}
+
+.description{
+color:orange;
+text-align: center;
+margin-top: 33px;
+}

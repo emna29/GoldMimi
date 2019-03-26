@@ -1,4 +1,12 @@
-  <% @bracelets.each do |bracelet| %>
-  <%= bracelet.name %>
-  <%= bracelet.description %>
-  <% end %>
+ <div class = "wrapper">
+  <div class = "container">
+    <div class = "cards">
+     <% @bracelets.each do |bracelet| %>
+      <div class = "card">
+         <div class ="name"><%= bracelet.name %></div>
+         <div class = "description"><%= bracelet.description%></div>
+      </div> <!-- end card -->
+    <% end %>
+    </div> <!-- end cards -->
+  </div> <!-- end contaienr -->
+</div> <!-- end wrapper -->

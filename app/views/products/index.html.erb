@@ -1,4 +1,12 @@
-  <% @products.each do |product| %>
-  <%= product.name %>
-  <%= product.description %>
-  <% end %>
+<div class = "wrapper">
+  <div class = "container">
+    <div class = "cards">
+     <% @products.each do |product| %>
+      <div class = "card">
+         <div class ="name"><%= product.name %></div>
+         <div class = "description"><%= product.description%></div>
+      </div> <!-- end card -->
+    <% end %>
+    </div> <!-- end cards -->
+  </div> <!-- end contaienr -->
+</div> <!-- end wrapper -->
