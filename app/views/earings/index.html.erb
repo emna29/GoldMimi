@@ -1,4 +1,12 @@
-  <% @earings.each do |earing| %>
-  <%= earing.name %>
-  <%= earing.description %>
-  <% end %>
+<div class = "wrapper">
+  <div class = "container">
+    <div class = "cards">
+     <% @earings.each do |earing| %>
+      <div class = "card">
+         <div class ="name"><%= earing.name %></div>
+         <div class = "description"><%= earing.description%></div>
+      </div> <!-- end card -->
+    <% end %>
+    </div> <!-- end cards -->
+  </div> <!-- end contaienr -->
+</div> <!-- end wrapper -->

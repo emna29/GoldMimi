@@ -1,4 +1,12 @@
-  <% @necklaces.each do |necklace| %>
-  <%= necklace.name %>
-  <%= necklace.description %>
-  <% end %>
+ <div class = "wrapper">
+  <div class = "container">
+    <div class = "cards">
+     <% @necklaces.each do |necklace| %>
+      <div class = "card">
+         <div class ="name"><%= necklace.name %></div>
+         <div class = "description"><%= necklace.description%></div>
+      </div> <!-- end card -->
+    <% end %>
+    </div> <!-- end cards -->
+  </div> <!-- end contaienr -->
+</div> <!-- end wrapper -->

@@ -1,4 +1,12 @@
-  <% @rings.each do |ring| %>
-  <%= ring.name %>
-  <%= ring.description %>
-  <% end %>
+ <div class = "wrapper">
+  <div class = "container">
+    <div class = "cards">
+     <% @rings.each do |ring| %>
+      <div class = "card">
+         <div class ="name"><%= ring.name %></div>
+         <div class = "description"><%= ring.description%></div>
+      </div> <!-- end card -->
+    <% end %>
+    </div> <!-- end cards -->
+  </div> <!-- end contaienr -->
+</div> <!-- end wrapper -->
