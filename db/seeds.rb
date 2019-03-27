@@ -23,31 +23,6 @@ product4 = Product.create!(name: ' Colliers',
                            description: 'Nouvelle collection de colliers en or 18K')
 product4.remote_photo_url = 'https://res.cloudinary.com/dhbzrdsvv/image/upload/v1553528074/gold%20by%20mimi/34584712_406957269819426_1063920466449661952_n.jpg'
 
-p "creating 6 bracelets"
-bracelet1 = Bracelet.create!(name: 'Bracelet unisex',
-                             description: 'Bracelet unisexe en or 18k')
-bracelet1.remote_photo_url = 'https://res.cloudinary.com/dhbzrdsvv/image/upload/v1553198905/gold%20by%20mimi/braceletunisexe.jpg'
-
-bracelet2 = Bracelet.create!(name: ' Bracelet jonc',
-                             description: 'Bracelet jonc en or 18k avec cube en or jaune et pyramide en or')
-bracelet2.remote_photo_url = 'https://res.cloudinary.com/dhbzrdsvv/image/upload/v1553198953/gold%20by%20mimi/braceletjonc.jpg'
-
-bracelet3 = Bracelet.create!(name: 'Bracelet avec motifs',
-                             description: 'Bracelets en Or 18k')
-bracelet3.remote_photo_url = 'https://res.cloudinary.com/dhbzrdsvv/image/upload/v1553198850/gold%20by%20mimi/braceletsavecmotif.jpg'
-
-bracelet4 = Bracelet.create!(name: 'Boules',
-                             description: 'Cette année les boules sont à l honneur!!! Bracelet jonc et bracelet en or 18k')
-bracelet4.remote_photo_url = 'https://res.cloudinary.com/dhbzrdsvv/image/upload/v1553198999/gold%20by%20mimi/braceletjonc/boules.jpg'
-
-bracelet5 = Bracelet.create!(name: 'Cube et pyramide',
-                             description: 'Modèl phare de cette année notre bracelet jonc cube et pyramide en or 18k')
-bracelet5.remote_photo_url = 'https://res.cloudinary.com/dhbzrdsvv/image/upload/v1553199055/gold%20by%20mimi/cube/pyramide.jpg'
-
-bracelet6 = Bracelet.create!(name: 'Cube et pyramide rosé.',
-                             description: 'Bracelet jonc en or 18k avec cube en or jaune et pyramide en or rosé')
-bracelet6.remote_photo_url = 'https://res.cloudinary.com/dhbzrdsvv/image/upload/v1553198953/gold%20by%20mimi/bracelet%20jonc.jpg'
-
 p "creating 6 rings "
 
 ring1 = Ring.create!(name: 'Boules',
