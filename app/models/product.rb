@@ -5,4 +5,5 @@ class Product < ApplicationRecord
   has_many :bracelets
   has_many :necklaces
 
+
 end
