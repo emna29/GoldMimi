@@ -7,9 +7,9 @@ class PhotoUploader < CarrierWave::Uploader::Base
     process :resize_to_fill => [100, 150, :north]
   end
 
-version :thumb do
-  process :resize_to_limit => [200, 200]
-  end
+# version :thumb do
+#   process :resize_to_limit => [200, 200]
+#   end
 
 
   # Remove everything else

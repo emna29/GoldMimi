@@ -5,9 +5,8 @@
       <div class = "card">
          <div class ="name"><%= product.name %></div>
          <div class = "description"><%= product.description%></div>
-         <%= cl_image_tag product.photo %>
-
-      </div> <!-- end card -->
+        <%=  cl_image_tag product.photo,  crop: :fill %>
+       </div> <!-- end card -->
     <% end %>
     </div> <!-- end cards -->
     <%= link_to "Bagues", rings_path %>
