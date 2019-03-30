@@ -7,21 +7,21 @@ Necklace.destroy_all
 Earing.destroy_all
 
 p "creating 4 products"
-product1 = Product.create!(name: 'Bagues',
-                           description: 'Nouvelle collection de bagues en or 18K')
-product1.remote_photo_url = 'https://res.cloudinary.com/dhbzrdsvv/image/upload/v1553096205/gold%20by%20mimi/bague.jpg'
+product1 = Product.create(name: 'Baguesz',
+                          description: 'Nouvelle collection de bagues en or 18K',
+                          picture: 'https://res.cloudinary.com/dqlweghoa/image/upload/v1550667386/x6evxcsjbufmt1b77q4i.png')
 
-product2 = Product.create!(name: ' Bracelets',
-                           description: 'Nouvelle collection de bracelets en or 18K')
-product2.remote_photo_url = 'https://res.cloudinary.com/dhbzrdsvv/image/upload/v1553528110/gold%20by%20mimi/33962457_2041848979467980_4394015542562783232_n.jpg'
+product2 = Product.create(name: ' Bracelets',
+                           description: 'Nouvelle collection de bracelets en or 18K',
+                           picture: 'https://res.cloudinary.com/dqlweghoa/image/upload/v1550867705/xpukhyhpg4pzbypkx1i7.gif')
 
-product3 = Product.create!(name: 'Boucles',
-                           description: 'Nouvelle collection de boucles en or 18K')
-product3.remote_photo_url = 'https://res.cloudinary.com/dhbzrdsvv/image/upload/v1553528095/gold%20by%20mimi/46914055_1257820287691021_3507336466788544444_n.jpg'
+product3 = Product.create(name: 'Boucles',
+                           description: 'Nouvelle collection de boucles en or 18K',
+                          picture: 'https://res.cloudinary.com/dqlweghoa/image/upload/v1550867705/xpukhyhpg4pzbypkx1i7.gif')
 
-product4 = Product.create!(name: ' Colliers',
-                           description: 'Nouvelle collection de colliers en or 18K')
-product4.remote_photo_url = 'https://res.cloudinary.com/dhbzrdsvv/image/upload/v1553528074/gold%20by%20mimi/34584712_406957269819426_1063920466449661952_n.jpg'
+product4 = Product.create(name: ' Colliers',
+                           description: 'Nouvelle collection de colliers en or 18K',
+                          picture: 'https://res.cloudinary.com/dqlweghoa/image/upload/v1550867705/xpukhyhpg4pzbypkx1i7.gif')
 
 p "creating 6 rings "
 
