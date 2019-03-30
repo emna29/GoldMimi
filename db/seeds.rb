@@ -7,21 +7,25 @@ Necklace.destroy_all
 Earing.destroy_all
 
 p "creating 4 products"
-product1 = Product.create(name: 'Baguesz',
+product1 = Product.create(name: 'rings',
                           description: 'Nouvelle collection de bagues en or 18K',
-                          picture: 'https://res.cloudinary.com/dqlweghoa/image/upload/v1550667386/x6evxcsjbufmt1b77q4i.png')
+                          picture: 'https://res.cloudinary.com/dqlweghoa/image/upload/v1550667386/x6evxcsjbufmt1b77q4i.png',
+                          link: "/rings")
 
 product2 = Product.create(name: ' Bracelets',
                            description: 'Nouvelle collection de bracelets en or 18K',
-                           picture: 'https://res.cloudinary.com/dqlweghoa/image/upload/v1550867705/xpukhyhpg4pzbypkx1i7.gif')
+                           picture: 'https://res.cloudinary.com/dqlweghoa/image/upload/v1550867705/xpukhyhpg4pzbypkx1i7.gif',
+                           link: "/bracelets")
 
 product3 = Product.create(name: 'Boucles',
                            description: 'Nouvelle collection de boucles en or 18K',
-                          picture: 'https://res.cloudinary.com/dqlweghoa/image/upload/v1550867705/xpukhyhpg4pzbypkx1i7.gif')
+                          picture: 'https://res.cloudinary.com/dqlweghoa/image/upload/v1550867705/xpukhyhpg4pzbypkx1i7.gif',
+                          link: "/earings")
 
 product4 = Product.create(name: ' Colliers',
                            description: 'Nouvelle collection de colliers en or 18K',
-                          picture: 'https://res.cloudinary.com/dqlweghoa/image/upload/v1550867705/xpukhyhpg4pzbypkx1i7.gif')
+                          picture: 'https://res.cloudinary.com/dqlweghoa/image/upload/v1550867705/xpukhyhpg4pzbypkx1i7.gif',
+                          link: "/necklaces")
 
 p "creating 6 rings "
 
