@@ -5,6 +5,11 @@
       <div class = "card">
          <div class ="name"><%= earing.name %></div>
          <div class = "description"><%= earing.description%></div>
+         <img src=<% if earing.picture.blank? %>
+                    <%= "https://png.pngtree.com/svg/20170217/8553c4769c.png" %>
+                  <% else %>
+                    <%= earing.picture %>
+                  <% end %>>
       </div> <!-- end card -->
     <% end %>
     </div> <!-- end cards -->

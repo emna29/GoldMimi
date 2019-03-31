@@ -6,6 +6,11 @@
          <div class ="name"><%= necklace.name %></div>
          <div class = "description"><%= necklace.description%></div>
          <div class ="photo"><%= cl_image_tag necklace.photo %></div>
+         <img src=<% if necklace.picture.blank? %>
+                    <%= "https://png.pngtree.com/svg/20170217/8553c4769c.png" %>
+                  <% else %>
+                    <%= necklace.picture %>
+                  <% end %>>
       </div> <!-- end card -->
     <% end %>
     </div> <!-- end cards -->
