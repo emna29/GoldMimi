@@ -2,23 +2,20 @@
   <div class = "container">
     <div class = "cards">
      <% @products.each do |product| %>
-      <%= link_to product.link do %>
+      <div class = "link"><%= link_to product.link do %></div>
       <div class = "card">
         <div class ="name"><%= product.name %></div>
         <div class = "description"><%= product.description%></div>
-        <img src=<% if product.picture.blank? %>
+
+          <img src=<% if product.picture.blank? %>
                     <%= "https://png.pngtree.com/svg/20170217/8553c4769c.png" %>
                   <% else %>
-                    <%= product.picture %>
+                  <%= product.picture %>
                   <% end %>>
               <% end %>
         </div> <!-- end card -->
     <% end %>
     </div> <!-- end cards -->
-
-    <%= link_to "Boucles", earings_path %>
-    <%= link_to "Bracelets", bracelets_path %>
-    <%= link_to "Colliers", necklaces_path %>
   </div> <!-- end contaienr -->
 </div> <!-- end wrapper -->
 

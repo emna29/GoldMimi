@@ -45,13 +45,11 @@ text-align: center;
 margin-top: 33px;
 }
 
-.card-link {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  z-index: 2;
-  background: black;
-  opacity: 0;
+.link{
+  text-decoration:none;
+}
+
+img{
+  margin-top: 26px;
+  margin-left: 50px;
 }
