@@ -2,7 +2,7 @@
   <div class = "container">
     <div class = "cards">
      <% @products.each do |product| %>
-      <div class = "link"><%= link_to product.link do %></div>
+      <%= link_to product.link do %>
       <div class = "card">
         <div class ="name"><%= product.name %></div>
         <div class = "description"><%= product.description%></div>
@@ -14,7 +14,7 @@
                   <% end %>>
               <% end %>
         </div> <!-- end card -->
-    <% end %>
+     <% end %>
     </div> <!-- end cards -->
   </div> <!-- end contaienr -->
 </div> <!-- end wrapper -->

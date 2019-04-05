@@ -131,7 +131,7 @@ earing5 = Earing.create!(name: 'Mimi',
                          picture: 'https://res.cloudinary.com/dhbzrdsvv/image/upload/c_scale,w_100/v1553530087/gold%20by%20mimi/34751810_2129014993984361_7988585019612332032_n.jpg')
 
 earing6 = Earing.create!(name: 'Allure.',
-                         description: 'Un modèle fin et précieux: des boucles conjuguant minutieusement deux cercles asymétriques.Symbole dunité, ces formes géométriques viennent donner de la complétude à votre allure.',
+                         description: 'Un modèle fin et précieux: des boucles conjuguant minutieusement deux cercles asymétriques.',
                          picture: 'https://res.cloudinary.com/dhbzrdsvv/image/upload/c_scale,w_100/v1553530071/gold%20by%20mimi/34095680_524837911244840_7991566847902220288_n.jpg')
 
 earing7 = Earing.create!(name: 'Diamant',
