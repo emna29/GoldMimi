@@ -25,19 +25,17 @@
 .card{
     width: 200px;
     height: 282px;
-    background-color: #fff;
+    background-color: #FEFDF0;
     margin: 30px 40px;
     box-shadow: 5px 7px 20px 0px rgba(0, 0, 0, 0.16);
     position: relative;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .name{
   color:red;
   text-align: center;
   margin-top: 43px;
-  text-decoration:none
-
 }
 
 .description{
@@ -51,4 +49,9 @@ margin-top: 33px;
 img{
   margin-top: 26px;
   margin-left: 50px;
+  border-radius: 10px;
+}
+
+a{
+  text-decoration:none;
 }
