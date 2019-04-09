@@ -1,0 +1,10 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.pagecontainer{
+  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.2)),
+  url('https://res.cloudinary.com/dhbzrdsvv/image/upload/v1553600489/gold%20by%20mimi/29740050_1975925212481135_1894182827822415872_n.jpg');
+  height: 167vh;
+  background-size: cover;
+  background-position: center;
+}
