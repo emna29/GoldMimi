@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   resources :earings, only: [:index]
   resources :bracelets, only: [:index]
   resources :necklaces, only: [:index]
+
+   root to: 'pages#home'
 end
