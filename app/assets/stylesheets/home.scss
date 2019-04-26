@@ -15,25 +15,36 @@
 //   -webkit-transform: translate3d(0,0,0);
 // }
 
-h5 {
+h3 {
   display:inline-block;
-  overflow:hidden;
   white-space:nowrap;
+  text-align: center;
+  font-family:'Roboto';
+  font-weight:300;
+  font-size:32px;
+  padding-top:40vh;
+  height:100vh;
+  overflow:hidden;
+  margin-left: 470px;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
 }
 
-h5:first-of-type {    /* For increasing performance
+
+h3:first-of-type {    /* For increasing performance
                        ID/Class should've been used.
                        For a small demo
                        it's okaish for now */
   animation: showup 7s infinite;
 }
 
-h5:last-of-type {
+h3:last-of-type {
   width:0px;
   animation: reveal 7s infinite;
 }
 
-h5:last-of-type span {
+h3:last-of-type span {
   margin-left:-355px;
   animation: slidein 7s infinite;
 }
